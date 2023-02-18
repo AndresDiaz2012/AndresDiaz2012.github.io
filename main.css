@@ -58,8 +58,8 @@
     border: 1px solid #fff;
     position: fixed;
     z-index: 400;
-    bottom: 20px;
-    bottom-radius: 90%;
+    bottom: 100px;
+    bottom-radius: 100%;
     right: 25px;
     padding: 25px;
     transition: ease 0.3s;
