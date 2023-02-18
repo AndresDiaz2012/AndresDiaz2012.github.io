@@ -1,0 +1,110 @@
+
+    td {
+        border: solid 1px;
+    }
+
+    .titulo_principal{
+        font-family: Cooper negra;
+      color: rgb(255, 255, 255);
+      font-size: 50px;
+      margin-bottom: 0px;
+      margin-top: 0%;
+    }
+    .title_pequeño{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    html {
+        background: linear-gradient(to top left, black, #F50D00, #DE670B) no-repeat center center fixed;
+        font-size: 120%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+      }
+
+      .font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-stretch: 100%;
+        font-display: swap;
+      }
+
+      .section {
+        display: flex;
+        width: 350;
+        height: 215;
+    }
+    
+    .section img {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .section img:hover{
+        cursor: crosshair;
+        width: 150px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
+    .container-boton{
+        background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 400;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+    }
+
+    .boton{
+            width: 80px;
+    transition: ease 1s;
+    }
+
+    
+.container-boton {
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 100%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2 infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/*#DE670B:naranja
+negro
+/*#F50D00:rojo
