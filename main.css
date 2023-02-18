@@ -58,17 +58,11 @@
     border: 1px solid #fff;
     position: fixed;
     z-index: 400;
-    border-radius: 100%;
-    bottom: 10px;
+    bottom: 20px;
     right: 25px;
     padding: 25px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
-    }
-
-    .boton{
-            width: 80px;
-    transition: ease 1s;
     }
 
 .container-boton:hover{
