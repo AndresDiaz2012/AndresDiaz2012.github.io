@@ -53,18 +53,18 @@
         filter: contrast(120%);
     }
 
-    .container-boton{
-        background-color: #2e6329;
+.container-boton {
+    background-color: #2e6329;
     border: 1px solid #fff;
     position: fixed;
-    z-index: 400;
+    z-index: 999;
+    border-radius: 100%;
     bottom: 20px;
-    bottom-radius: 50%;
     right: 25px;
     padding: 25px;
     transition: ease 0.3s;
-    animation: efecto 1.2s infinite;
-    }
+    animation: efecto 1.2 infinite;
+}
 
 .container-boton:hover{
     transform: scale(1.1);
