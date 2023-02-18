@@ -59,7 +59,7 @@
     position: fixed;
     z-index: 400;
     bottom: 20px;
-    bottom-radius: 100%;
+    bottom-radius: 50%;
     right: 25px;
     padding: 25px;
     transition: ease 0.3s;
